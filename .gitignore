@@ -1,0 +1,26 @@
+# Build outputs
+dist/
+wecom-go
+wecom-go-linux
+wecom-go-linux-amd64
+wecom-go-linux-arm64
+wecom-go.exe
+wecom-go-new.exe
+wecom-go-darwin-amd64
+wecom-go-darwin-arm64
+
+# Secrets / local config
+.env
+.env.local
+*.pem
+*.key
+*.jwt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
